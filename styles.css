@@ -19,7 +19,7 @@ body {
 .intro-screen {
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: linear-gradient(135deg, #ff4f8b, #ff758c);
+  background: linear-gradient(135deg, #1f1c2c, #928dab); /* Deep purple to lavender */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -182,3 +182,11 @@ footer {
   transform: scale(1.05);
 }
 
+.tab-content a {
+  color: #0073e6; /* or any color you prefer */
+  text-decoration: none; /* optional: removes underline */
+}
+
+.tab-content a:hover {
+  text-decoration: underline; /* optional: adds underline on hover */
+}
