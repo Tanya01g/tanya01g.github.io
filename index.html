@@ -2,87 +2,108 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Tanya Gupta - Frontend Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tanya Gupta | Frontend Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"/>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="intro-screen">
+    <h1>Welcome to Tanya Gupta's Portfolio</h1>
+  </div>
+
   <header>
-    <div class="header-content">
-      <h1>Tanya Gupta</h1>
-      <p>Frontend Developer | Angular | Material UI | API Integration</p>
-      <a href="Tanya_Gupta_Resume.pdf" class="resume-btn" target="_blank">📄 View Resume</a>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+    <h1>Tanya Gupta</h1>
+    <p>Frontend Developer | Angular | Material UI | API Integration</p>
+    <a href="Tanya_Gupta_Resume.pdf" class="btn" target="_blank"><i class="fas fa-file-download"></i> Download Resume</a>
   </header>
 
-  <div class="container">
-    <section id="about" class="section">
+  <nav class="tab-nav">
+    <button class="tab-btn active" data-tab="about">About</button>
+    <button class="tab-btn" data-tab="skills">Skills</button>
+    <button class="tab-btn" data-tab="experience">Experience</button>
+    <button class="tab-btn" data-tab="education">Education</button>
+    <button class="tab-btn" data-tab="contact">Contact</button>
+  </nav>
+
+  <main>
+    <section id="about" class="tab-content active">
       <h2>About Me</h2>
       <p>
-        I’m a passionate Frontend Developer with a strong foundation in .NET and a current focus on building dynamic and scalable web applications using Angular and Material UI. With 3+ years of industry experience, I specialize in creating intuitive user interfaces, integrating RESTful APIs, and collaborating closely with cross-functional teams to deliver high-performance solutions. My background in .NET empowers me with full-stack perspective and adaptability across technologies.
+        I'm a passionate Frontend Developer with 3+ years of experience. Initially skilled in .NET, I now specialize in Angular and Material UI, building responsive, performant web applications with smooth API integration.
       </p>
     </section>
 
-    <section id="experience" class="section">
-      <h2>Work Experience</h2>
-      <div class="experience-entry">
-        <h3>Frontend Developer (Angular)</h3>
-        <p>Wipro Ltd (Sep 2021 - Present)</p>
-        <ul>
-          <li>Developing responsive and accessible web components using Angular 14+ and Material UI.</li>
-          <li>Implemented dynamic forms, filters, and complex UI interactions with TypeScript and reactive forms.</li>
-          <li>Integrated RESTful APIs for real-time data handling and UI updates.</li>
-          <li>Worked closely with backend teams to align frontend logic with .NET-based APIs.</li>
-          <li>Previously worked on .NET technologies, supporting legacy systems and transitioning modules to modern frontend stack.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="skills" class="section">
-      <h2>Technical Skills</h2>
-      <ul class="skills-list">
+    <section id="skills" class="tab-content">
+      <h2>Skills</h2>
+      <ul>
         <li><strong>Frontend:</strong> Angular, TypeScript, JavaScript, HTML5, CSS3, Material UI</li>
-        <li><strong>Backend (Prior Experience):</strong> ASP.NET, C#</li>
-        <li><strong>API Integration:</strong> RESTful APIs, JSON</li>
-        <li><strong>State Management:</strong> RxJS, Observables</li>
-        <li><strong>Version Control:</strong> Git, SVN</li>
-        <li><strong>Tools:</strong> VS Code, JIRA, Postman</li>
+        <li><strong>Backend (prior):</strong> ASP.NET, C#</li>
+        <li><strong>API:</strong> RESTful Services, RxJS</li>
         <li><strong>Cloud:</strong> AWS (Certified)</li>
+        <li><strong>Tools:</strong> Git, Postman, JIRA, VS Code</li>
       </ul>
     </section>
 
-    <section id="education" class="section">
-      <h2>Education</h2>
-      <div class="education-entry">
-        <h3>MTech Software Engineering</h3>
-        <p>BITS Pilani (2022 - Pursuing)</p>
-      </div>
-      <div class="education-entry">
-        <h3>BCA</h3>
-        <p>IFTM University, Moradabad (2018 - 2021) - 9.4 CGPA</p>
-      </div>
+    <section id="experience" class="tab-content">
+      <h2>Experience</h2>
+      <h3>Frontend Developer - Wipro Ltd</h3>
+      <p><em>Sep 2021 - Present</em></p>
+      <ul>
+        <li>Built reusable Angular components with Material UI integration</li>
+        <li>Worked extensively with REST APIs and RxJS observables</li>
+        <li>Collaborated with backend teams using ASP.NET APIs</li>
+        <li>Transitioned from .NET developer to frontend specialist</li>
+      </ul>
     </section>
 
-    <section id="contact" class="section">
+    <section id="education" class="tab-content">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>MTech Software Engineering</strong> - BITS Pilani (2022 - Present)</li>
+        <li><strong>BCA</strong> - IFTM University, Moradabad (2018 - 2021) - 9.4 CGPA</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="tab-content">
       <h2>Contact</h2>
       <p>Email: <a href="mailto:tgtanya2000@gmail.com">tgtanya2000@gmail.com</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/tanya-gupta-10642822b" target="_blank">View Profile</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/tanya-gupta-10642822b" target="_blank">linkedin.com/in/tanya-gupta</a></p>
     </section>
-  </div>
+  </main>
 
   <footer>
-    <p>&copy; 2025 Tanya Gupta. All Rights Reserved.</p>
+    &copy; 2025 Tanya Gupta. All Rights Reserved.
   </footer>
+
+  <script>
+    // Intro animation fade out after 2.5s
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        document.querySelector('.intro-screen').classList.add('fade-out');
+        setTimeout(() => {
+          document.querySelector('.intro-screen').style.display = 'none';
+        }, 800);
+      }, 2500);
+    });
+
+    // Tab navigation logic
+    const tabs = document.querySelectorAll('.tab-btn');
+    const contents = document.querySelectorAll('.tab-content');
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(btn => btn.classList.remove('active'));
+        tab.classList.add('active');
+
+        contents.forEach(content => {
+          content.id === tab.dataset.tab
+            ? content.classList.add('active')
+            : content.classList.remove('active');
+        });
+      });
+    });
+  </script>
 </body>
 </html>
