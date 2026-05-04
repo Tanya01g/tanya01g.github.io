@@ -3,226 +3,227 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Tanya Gupta | Frontend Developer</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <title>Tanya Gupta | Senior Frontend Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
   <header>
     <img src="Profile.jpg" alt="Tanya Gupta" class="profile-photo" />
     <h1>Tanya Gupta</h1>
-    <p>Frontend Developer | Angular | Material UI | AWS Certified | 4+ Years Experience</p>
-    <a href="TanyaGupta_Developer.pdf" class="btn" target="_blank"><i class="fas fa-eye"></i> View Resume</a>
+    <p class="subtitle">Senior Frontend Developer &nbsp;·&nbsp; Angular Specialist &nbsp;·&nbsp; Wipro</p>
+    <div class="header-badges">
+      <span class="badge">Angular 12+</span>
+      <span class="badge">TypeScript</span>
+      <span class="badge">NgRx &amp; RxJS</span>
+      <span class="badge">AWS Certified</span>
+      <span class="badge">4+ Years Experience</span>
+    </div>
+    <a href="Tanya_Gupta_Resume.pdf" class="btn" target="_blank"><i class="fas fa-download"></i> Download Resume</a>
   </header>
 
-  <nav class="tab-nav">
-    <button class="tab-btn active" data-tab="about"><span>About</span></button>
-    <button class="tab-btn" data-tab="skills"><span>Skills</span></button>
-    <button class="tab-btn" data-tab="experience"><span>Experience</span></button>
-    <button class="tab-btn" data-tab="achievements"><span>Achievements</span></button>
-    <button class="tab-btn" data-tab="projects"><span>Projects</span></button>
-    <button class="tab-btn" data-tab="education"><span>Education</span></button>
-    <button class="tab-btn" data-tab="contact"><span>Contact</span></button>
+  <nav>
+    <div class="tab-nav">
+      <button class="tab-btn active" data-tab="about">About</button>
+      <button class="tab-btn" data-tab="skills">Skills</button>
+      <button class="tab-btn" data-tab="experience">Experience</button>
+      <button class="tab-btn" data-tab="achievements">Achievements</button>
+      <button class="tab-btn" data-tab="projects">Projects</button>
+      <button class="tab-btn" data-tab="education">Education</button>
+      <button class="tab-btn" data-tab="contact">Contact</button>
+    </div>
   </nav>
 
   <main>
+
+    <!-- ABOUT -->
     <section id="about" class="tab-content active">
-      <div class="content-card">
+      <div class="card">
         <h2>About Me</h2>
-        <p>
-          Angular Frontend Developer with 4+ years of experience building scalable enterprise web applications. Skilled in Angular, TypeScript, and REST API integration, with proven ability to improve UI performance and deliver reusable component-based architectures.
-        </p>
-        <p>
-          Experienced in Agile environments and collaborating with cross-functional teams to deliver high-quality solutions. AWS Certified Cloud Practitioner and Solutions Architect with hands-on experience leveraging AWS services for scalable, reliable deployments.
-        </p>
+        <p>Angular Frontend Developer with 4+ years at Wipro building and optimising enterprise-scale web applications for global clients including HP. Proven record of cutting frontend development effort by 20% through systematic component libraries.</p>
+        <p>Hands-on with TypeScript, RxJS, NgRx, REST APIs, and AWS serverless services. AWS Certified Cloud Practitioner and Solutions Architect (Associate). I've served as the primary frontend point of contact for US-based client stakeholders — leading requirement-gathering sessions and demoing implemented features directly to clients.</p>
+        <p>Looking for a senior frontend role where I can own architecture decisions, mentor junior developers, and drive measurable UI quality improvements.</p>
       </div>
     </section>
 
+    <!-- SKILLS -->
     <section id="skills" class="tab-content">
-      <div class="content-card">
+      <div class="card">
         <h2>Technical Skills</h2>
         <div class="skills-grid">
           <div class="skill-category">
-            <h4><i class="fas fa-code"></i> Frontend Development</h4>
+            <h4><i class="fas fa-code"></i> Frontend</h4>
             <div class="skill-tags">
               <span class="skill-tag">Angular v12+</span>
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">JavaScript</span>
               <span class="skill-tag">RxJS</span>
               <span class="skill-tag">NgRx</span>
               <span class="skill-tag">Angular Material</span>
               <span class="skill-tag">HTML5</span>
               <span class="skill-tag">CSS3</span>
-              <span class="skill-tag">JavaScript</span>
-              <span class="skill-tag">TypeScript</span>
             </div>
           </div>
-          
           <div class="skill-category">
-            <h4><i class="fas fa-server"></i> Backend & Languages</h4>
+            <h4><i class="fas fa-server"></i> Backend &amp; APIs</h4>
             <div class="skill-tags">
-              <span class="skill-tag">C#</span>
+              <span class="skill-tag">REST API Integration</span>
               <span class="skill-tag">ASP.NET</span>
-              <span class="skill-tag">RESTful API</span>
+              <span class="skill-tag">C#</span>
             </div>
           </div>
-          
           <div class="skill-category">
             <h4><i class="fas fa-cloud"></i> Cloud (AWS)</h4>
             <div class="skill-tags">
-              <span class="skill-tag">AWS Lambda</span>
+              <span class="skill-tag">Lambda</span>
               <span class="skill-tag">S3</span>
               <span class="skill-tag">DynamoDB</span>
               <span class="skill-tag">API Gateway</span>
               <span class="skill-tag">Cognito</span>
+              <span class="skill-tag">CloudFront</span>
             </div>
           </div>
-          
           <div class="skill-category">
-            <h4><i class="fas fa-tools"></i> Tools & Methodologies</h4>
+            <h4><i class="fas fa-tools"></i> Tools &amp; Practices</h4>
             <div class="skill-tags">
-              <span class="skill-tag">SVN</span>
               <span class="skill-tag">GitHub</span>
               <span class="skill-tag">GitHub Copilot</span>
+              <span class="skill-tag">SVN</span>
               <span class="skill-tag">Power Automate</span>
-              <span class="skill-tag">Agile & Scrum</span>
+              <span class="skill-tag">Agile / Scrum</span>
+              <span class="skill-tag">Performance Profiling</span>
             </div>
           </div>
         </div>
       </div>
-      
-      <div class="content-card">
+
+      <div class="card">
         <h2>Certifications</h2>
-        <div class="certification-badge">
-          <i class="fab fa-aws"></i>
-          <strong>AWS Cloud Practitioner</strong>
-        </div>
-        <div class="certification-badge">
-          <i class="fab fa-aws"></i>
-          <strong>AWS Solutions Architect</strong>
+        <div class="cert-row">
+          <div class="cert-badge"><i class="fab fa-aws"></i> AWS Certified Solutions Architect – Associate</div>
+          <div class="cert-badge"><i class="fab fa-aws"></i> AWS Certified Cloud Practitioner</div>
         </div>
       </div>
     </section>
 
+    <!-- EXPERIENCE -->
     <section id="experience" class="tab-content">
-      <div class="content-card">
+      <div class="card">
         <h2>Work Experience</h2>
-        
-        <h3><i class="fas fa-briefcase"></i> Senior Project Engineer - Frontend Developer</h3>
-        <p><em><i class="fas fa-building"></i> Wipro Pvt Ltd – Dec 2025 to Present</em></p>
-        <ul>
-          <li>Developed and maintained scalable Angular applications using TypeScript and Angular Material.</li>
-          <li>Built 15+ reusable UI components, reducing development effort by 20%.</li>
-          <li>Integrated REST APIs and implemented efficient data handling, improving application performance.</li>
-          <li>Identified and resolved UI defects and performance bottlenecks, enhancing user experience.</li>
-          <li>Collaborated with cross-functional teams in Agile/Scrum environment to deliver features on time.</li>
-          <li>Improved application stability through error handling and form validation strategies.</li>
-          <li>Actively communicated with clients to gather requirements, document issues, and provide effective solutions.</li>
-        </ul>
 
-        <h4><i class="fas fa-project-diagram"></i> Project: Enterprise Web Application (Client: HP)</h4>
-        <ul>
-          <li>Enhanced frontend modules using Angular, TypeScript, and Angular Material, improving UI performance and user experience.</li>
-          <li>Orchestrated the creation of 15+ reusable Angular components, reducing frontend development time by 20%.</li>
-          <li>Ensured UI consistency across asset planning and reporting modules within an Agile framework.</li>
-        </ul>
-
-        <h3><i class="fas fa-briefcase"></i> Scholar Trainee - Frontend Developer</h3>
-        <p><em><i class="fas fa-building"></i> Wipro Pvt Ltd – Sept 2021 to Nov 2025</em></p>
-        <ul>
-          <li>Started career working on .NET projects (Framework 3.5–4), providing technical support, troubleshooting, and assisting in the deployment and configuration of enterprise applications.</li>
-          <li>Transitioned to Angular as a Frontend Developer, developing and maintaining dynamic, responsive web applications using Angular and Material UI.</li>
-          <li>Integrated frontend components with backend REST APIs for efficient data retrieval and processing, ensuring accurate and consistent UI data representation.</li>
-          <li>Identified and resolved UI defects and performance bottlenecks, improving application responsiveness and overall user experience.</li>
-          <li>Collaborated with senior developers and cross-functional teams to implement enterprise architecture patterns, coding standards, and Agile development practices.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="achievements" class="tab-content">
-      <div class="content-card">
-        <h2>Achievements</h2>
-        <div class="achievement-item">
-          <i class="fas fa-chart-line"></i>
-          <strong>Reduced frontend development effort by 20% through reusable Angular components</strong>
-        </div>
-        <div class="achievement-item">
-          <i class="fas fa-star"></i>
-          <strong>Star Performer Award, Wipro – 2025</strong>
-        </div>
-        <div class="achievement-item">
-          <i class="fas fa-trophy"></i>
-          <strong>Unit Award - Beyond the Call of Duty, Wipro - 2024</strong>
-        </div>
-        <div class="achievement-item">
-          <i class="fas fa-flag"></i>
-          <strong>2x Habit Flagbearer - Building Trust, Wipro – 2023, 2025</strong>
-        </div>
-        <div class="achievement-item">
-          <i class="fas fa-medal"></i>
-          <strong>2x Victory League, Wipro – 2023</strong>
-        </div>
-        <div class="achievement-item">
-          <i class="fas fa-award"></i>
-          <strong>2× Inspiring Performance Award, Wipro – 2023</strong>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects" class="tab-content">
-      <div class="content-card">
-        <h2>Projects</h2>
-        
-        <div class="project">
-          <h3><i class="fas fa-graduation-cap"></i> eVidyaVault – Serverless Document Storage, Sharing & Verification System</h3>
-          <p><em><i class="fas fa-university"></i> Birla Institute of Technology & Science (BITS), Pilani – 2025</em></p>
+        <div class="job">
+          <div class="job-header">
+            <h3>Senior Project Engineer – Frontend Developer</h3>
+            <span class="job-dates">Dec 2025 – Present</span>
+          </div>
+          <p class="job-company"><i class="fas fa-building"></i> Wipro Pvt Ltd, Greater Noida</p>
+          <p class="job-project"><i class="fas fa-project-diagram"></i> Enterprise Asset Management Platform &nbsp;|&nbsp; Client: HP</p>
           <ul>
-            <li>Developed eVidyaVault, a serverless web application for secure document storage, sharing, and verification targeted at students and job seekers.</li>
-            <li>Implemented a cloud-native architecture using AWS Lambda, S3, DynamoDB, API Gateway, ensuring scalability, high availability, and security.</li>
-            <li>Enabled user authentication and authorization through AWS Cognito, providing role-based access control for students and employers.</li>
-            <li>Designed APIs and serverless functions for document upload, retrieval, and verification, ensuring integrity and confidentiality.</li>
-            <li>Developed a responsive frontend using Angular and Material UI, with intuitive file management, search, and sharing features.</li>
-            <li>Incorporated real-time notifications and audit trails to track document activities and enhance system transparency.</li>
-            <li>Followed serverless best practices to reduce operational costs, simplify deployment, and ensure data privacy compliance.</li>
+            <li>Architected and maintained a suite of Angular 12+ modules for HP's enterprise asset planning and reporting platform, serving thousands of internal users across regions.</li>
+            <li>Designed a reusable component library of 15+ Angular components (data grids, filter panels, form controls), adopted across 4 product modules and reducing new-feature development effort by 20%.</li>
+            <li>Led REST API integration strategy across asset planning, inventory, and reporting modules — standardising HTTP interceptors, error handling, and loading states for consistent UX.</li>
+            <li>Improved application performance by profiling and resolving rendering bottlenecks using Angular DevTools and Chrome Performance tab.</li>
+            <li>Drove adoption of NgRx for state management in high-complexity modules, eliminating cascading re-render issues and simplifying debugging.</li>
+            <li>Served as the primary frontend point of contact for US-based HP stakeholders — led cross-timezone requirement-gathering sessions and demoed implemented features directly to clients, translating business needs into technical specs and driving sprint-level delivery within an Agile/Scrum framework.</li>
+            <li>Introduced form validation patterns and global error-handling strategies that improved application stability and reduced user-reported defects.</li>
+          </ul>
+        </div>
+
+        <hr class="divider" />
+
+        <div class="job">
+          <div class="job-header">
+            <h3>Scholar Trainee → Frontend Developer</h3>
+            <span class="job-dates">Sep 2021 – Nov 2025</span>
+          </div>
+          <p class="job-company"><i class="fas fa-building"></i> Wipro Pvt Ltd, Greater Noida</p>
+          <ul>
+            <li>Began career on .NET (Framework 3.5–4) projects, providing technical support and contributing to deployment and configuration of enterprise applications.</li>
+            <li>Transitioned into Angular frontend development within 12 months; independently delivered responsive UI modules integrated with backend REST APIs.</li>
+            <li>Identified and resolved UI defects and performance bottlenecks across multiple sprints, consistently closing assigned issues within SLA.</li>
+            <li>Collaborated with senior engineers to implement coding standards and enterprise architecture patterns, progressing rapidly to independent feature ownership.</li>
+            <li>Earned 2× Inspiring Performance Award and 2× Victory League recognition within first two years, reflecting rapid growth and strong delivery.</li>
           </ul>
         </div>
       </div>
     </section>
 
-    <section id="education" class="tab-content">
-      <div class="content-card">
-        <h2>Education</h2>
-        <div class="education-item">
-          <h3><i class="fas fa-graduation-cap"></i> MTech - Software Engineering</h3>
-          <p><strong><i class="fas fa-university"></i> BITS Pilani — Work Integrated Learning Program (WILP)</strong><br>
-          <i class="fas fa-calendar-alt"></i> 2022 - 2025</p>
-        </div>
-        
-        <div class="education-item">
-          <h3><i class="fas fa-laptop-code"></i> Bachelor of Computers Application</h3>
-          <p><strong><i class="fas fa-university"></i> IFTM University, Moradabad</strong><br>
-          <i class="fas fa-calendar-alt"></i> 2018 - 2021</p>
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements" class="tab-content">
+      <div class="card">
+        <h2>Achievements &amp; Awards</h2>
+        <div class="achievement-list">
+          <div class="achievement-item"><i class="fas fa-chart-line"></i><span>Reduced frontend development effort by 20% through a reusable Angular component library adopted across 4 product modules</span></div>
+          <div class="achievement-item"><i class="fas fa-star"></i><span>Star Performer Award, Wipro – 2025</span></div>
+          <div class="achievement-item"><i class="fas fa-trophy"></i><span>Unit Award – Beyond the Call of Duty, Wipro – 2024</span></div>
+          <div class="achievement-item"><i class="fas fa-flag"></i><span>2× Habit Flagbearer – Building Trust, Wipro – 2023 &amp; 2025</span></div>
+          <div class="achievement-item"><i class="fas fa-medal"></i><span>2× Victory League, Wipro – 2023</span></div>
+          <div class="achievement-item"><i class="fas fa-award"></i><span>2× Inspiring Performance Award, Wipro – 2023</span></div>
         </div>
       </div>
     </section>
 
+    <!-- PROJECTS -->
+    <section id="projects" class="tab-content">
+      <div class="card">
+        <h2>Projects</h2>
+        <div class="project">
+          <p class="project-title"><i class="fas fa-graduation-cap"></i> eVidyaVault – Serverless Document Storage, Sharing &amp; Verification System</p>
+          <p class="project-meta"><i class="fas fa-university"></i> Dissertation Project, BITS Pilani WILP (MTech) – 2025</p>
+          <ul>
+            <li>Designed and built a fully serverless document platform on AWS using Lambda, S3, DynamoDB, API Gateway, and Cognito — directly applying cloud skills from AWS certifications to a real production-grade system.</li>
+            <li>Implemented user authentication and role-based access control via AWS Cognito for students and employer roles.</li>
+            <li>Designed APIs and serverless functions for document upload, retrieval, and cryptographic verification, ensuring integrity and confidentiality.</li>
+            <li>Developed a responsive Angular + Material UI frontend with intuitive file management, search, and document sharing features.</li>
+            <li>Incorporated real-time notifications and audit trails to track document activities and enhance system transparency.</li>
+            <li>Sole developer — owned architecture, backend API design, and frontend integration end-to-end.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="tab-content">
+      <div class="card">
+        <h2>Education</h2>
+        <div class="edu-item">
+          <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+          <div class="edu-info">
+            <h3>MTech – Software Engineering</h3>
+            <p>BITS Pilani — Work Integrated Learning Program (WILP)</p>
+            <p>2022 – 2025</p>
+          </div>
+        </div>
+        <div class="edu-item">
+          <div class="edu-icon"><i class="fas fa-laptop-code"></i></div>
+          <div class="edu-info">
+            <h3>Bachelor of Computer Applications</h3>
+            <p>IFTM University, Moradabad</p>
+            <p>2018 – 2021</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
     <section id="contact" class="tab-content">
-      <div class="content-card">
-        <h2>Contact</h2>
+      <div class="card">
+        <h2>Get in Touch</h2>
         <div class="contact-grid">
-          <div class="contact-item">
+          <a href="mailto:tgtanya2000@gmail.com" class="contact-item">
             <i class="fas fa-envelope"></i>
-            <a href="mailto:tgtanya2000@gmail.com">tgtanya2000@gmail.com</a>
-          </div>
-          
-          <div class="contact-item">
+            <span>tgtanya2000@gmail.com</span>
+          </a>
+          <a href="tel:+919368172029" class="contact-item">
             <i class="fas fa-phone"></i>
-            <a href="tel:+919368172029">+91 9368172029</a>
-          </div>
-          
-          <div class="contact-item">
+            <span>+91 93681 72029</span>
+          </a>
+          <a href="https://www.linkedin.com/in/tanya-gupta-10642822b" target="_blank" class="contact-item">
             <i class="fab fa-linkedin"></i>
-            <a href="https://www.linkedin.com/in/tanya-gupta-10642822b" target="_blank">LinkedIn Profile</a>
-          </div>
+            <span>LinkedIn Profile</span>
+          </a>
         </div>
       </div>
     </section>
@@ -230,53 +231,22 @@
   </main>
 
   <footer>
-    &copy; 2026 Tanya Gupta. All Rights Reserved.
+    &copy; 2026 Tanya Gupta &nbsp;·&nbsp; Senior Frontend Developer
   </footer>
 
   <script>
-    // Add loading animation to content when page loads
-    window.addEventListener('load', () => {
-      document.querySelectorAll('.content-card, .education-item, .project, .achievement-item').forEach((el, index) => {
-        el.style.animationDelay = `${index * 0.1}s`;
-        el.classList.add('loading');
-      });
-    });
-
-    // Tab navigation logic - instant switching
     const tabs = document.querySelectorAll('.tab-btn');
     const contents = document.querySelectorAll('.tab-content');
-
     tabs.forEach(tab => {
       tab.addEventListener('click', () => {
-        // Remove active class from all tabs and contents
-        tabs.forEach(btn => btn.classList.remove('active'));
-        contents.forEach(content => content.classList.remove('active'));
-        
-        // Add active class to clicked tab and show content instantly
+        tabs.forEach(b => b.classList.remove('active'));
+        contents.forEach(c => c.classList.remove('active'));
         tab.classList.add('active');
-        const targetContent = document.getElementById(tab.dataset.tab);
-        if (targetContent) {
-          targetContent.classList.add('active');
-        }
-      });
-    });
-
-    // Smooth scroll for better navigation
-    document.addEventListener('DOMContentLoaded', () => {
-      // Add smooth scrolling to all links
-      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-          e.preventDefault();
-          const target = document.querySelector(this.getAttribute('href'));
-          if (target) {
-            target.scrollIntoView({
-              behavior: 'smooth',
-              block: 'start'
-            });
-          }
-        });
+        const target = document.getElementById(tab.dataset.tab);
+        if (target) target.classList.add('active');
       });
     });
   </script>
+
 </body>
 </html>
